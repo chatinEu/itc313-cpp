@@ -4,7 +4,7 @@ CXX        = g++
 CXXFLAGS   = -Wall -Wextra -std=c++11
 DEPFLAGS   = -MMD
 LDFLAGS    = 
-SRCS       = point.cpp app.cpp segment.cpp polygone.cpp
+SRCS       = point.cpp app.cpp segment.cpp polygone.cpp triangle.cpp
 OBJS       = $(SRCS:.cpp=.o)
 TARGET     = app
 DEPS	   = $(OBJS:.o=.d)

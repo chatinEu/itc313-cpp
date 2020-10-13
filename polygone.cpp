@@ -2,13 +2,13 @@
 
 using std::vector;
 
-Polygone::Polygone(vector<Point> &vect):listSommet(vect){}
+Polygone::Polygone(vector<Point> vect):listSommet(vect){}
 
 
 vector<Point> Polygone::getListSommet()const{
 	return listSommet;
 }
 
-void Polygone::setListSommet(vector<Point> &vect){
+void Polygone::setListSommet(vector<Point> vect){
 	listSommet=vect;
 }

@@ -32,7 +32,12 @@ int main()
 
     std::vector<Point> vect;
     vect.push_back(Point(2,2));
+    vect.push_back(Point(2,4));
+    vect.push_back(Point(5,3.2));
     Triangle tri(vect);
+    std::cout<<std::to_string(tri.getAire())<<std::endl;
+
+
 
     return 0;
 }

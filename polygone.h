@@ -7,9 +7,9 @@ class Polygone
 {
 
 public:
-	Polygone(std::vector<Point> &vect);
+	Polygone(std::vector<Point> vect);
 	std::vector<Point> getListSommet()const;
-	void setListSommet(std::vector<Point> &vect);
+	void setListSommet(std::vector<Point> vect);
 
 private:
 	std::vector<Point> listSommet;
